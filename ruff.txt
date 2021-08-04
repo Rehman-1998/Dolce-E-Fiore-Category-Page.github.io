@@ -1,0 +1,258 @@
+border: 1px solid #e0dede;
+    margin-right: 8px;
+    margin-top: 5px;
+    padding: 3px;
+
+ <div class="d-flex">
+            <div class="float-start">
+              <div class="">
+                <i class="fas fa-th"></i>
+                <i class="fas fa-bars"></i>
+              </div>
+              <div class="float-end">
+                <h5>Sort By</h5>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+    font-size: 12px;
+    padding: 6px;
+    color: white;
+    background-color: black;
+
+
+ <!--************ Cards ******************-->
+
+          <div class="d-flex flex-wrap mt-5">
+            <div class="card" style="width: 100%">
+              <img src="images/1.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+data-filter="all"
+
+
+$(document).ready(function() {
+ 
+$('.filter-img').click(function(){
+    const value= $(this).attr('data-filter');
+    if (value == 'all')
+    {
+        $('.product-box').show('1000');
+    }
+    // else if(value == 'chocolate')
+    // {
+    //     $('.chocolate').show('1000');
+    //     $('.dates').hide('1000');
+    // }
+
+    else{
+        $('.product-box').not('.' +value).hide('1000');
+        $('.product-box').filter('.' +value).show('1000');
+    }
+
+    $('.filter-img')
+
+    $('.active').click(function(){
+        $('.product-box').show('1000');
+    })
+})
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+ 
+$('.filter-img').click(function(){
+    const value= $(this).attr('data-filter');
+    if (value == 'all')
+    {
+         $('.active').click(function(){
+        $('.product-box').show('1000');
+    })
+    }
+    // else if(value == 'chocolate')
+    // {
+    //     $('.chocolate').show('1000');
+    //     $('.dates').hide('1000');
+    // }
+
+    else {
+        $('.product-box').not('.' +value).hide('1000');
+        $('.product-box').filter('.' +value).show('1000');
+    }
+
+    // $('.filter-img').click(function(){
+    //     $(this).addClass('active').siblings().removeClass('active');
+    // })
+
+    // $('.active').click(function(){
+    //     $('.product-box').show('1000');
+    // })
+})
+});
+
+
+class="filter"
+data-filter="dates"
+
+white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+
+
+   .product{ display: table;
+    content: " ";
+    clear: both;}
+
+
+.row.mt-5.ps-3.product {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.card {
+   
+    display: flex;
+    flex-direction: row;
+}
+.card-body {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-text {
+  
+    white-space: nowrap;
+    margin-bottom: 8px !important;
+    margin-left: 15px;
+}
+
+
+.break-line{
+    height: 3px !important;
+    background-color:grey;
+}
+
+/* .ltg.product {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.ltg.card {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.ltg.card-body {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ltg.card-text {
+
+    white-space: nowrap;
+    margin-bottom: 8px !important;
+    margin-left: 15px;
+} */
+
+
+
+
+
+
+.product.ltg {
+    display: table;
+}
+.card.ltg {
+    display: flex;
+    flex-direction: row;
+}
+.card-body.ltg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-title.ltg {
+    white-space: nowrap;
+}
+.card-text.ltg {
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+ $(".flower-row").css("display","none");
+    $(".social-icon-container").css("display","none")
+    $(".footer").css("display","none")
+$(".main-section-2").css("display","none");
+
+
+
+
+
+  <div class="d-flex">
+          <div class="top-header-icon">
+            <i class="fas fa-phone-alt"></i>
+            <span class="ms-2">+971 XXXX XXX</span>
+          </div>
+          <div class="top-header-icon ms-5">
+            <i class="fas fa-envelope"></i>
+            <span class="ms-2">info@Dolceefiore.com</span>
+          </div>
+        </div>
+
+
+$('.product-box').not('.' +value).hide('1000');
+        $('.product-box').filter('.' +value).show('1000');

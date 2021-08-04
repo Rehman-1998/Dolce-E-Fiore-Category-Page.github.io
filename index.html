@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ****************** Required meta tags ****************** -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ******************* Bootstrap CSS ************************* -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- ****************** Bootstrap CSS End ************************** -->
+
+    <!--******************* Owl Carousel CSS start ************************-->
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+
+    <!--******************* Owl Carousel CSS end ************************-->
+
+    <!-- ******************* MY CSS ******************************* -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- ******************* MY CSS END **************************** -->
+
+    <!-- ******************* Font Awosome *************************** -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ******************* Font Awosome end *********************** -->
+
+    <!-- ******************* Google Font Popin start *********************** -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ******************* Google Font Popin end *********************** -->
+
+    <title>Category Page</title>
+  </head>
+
+  <body>
+    <!-- ******************** Header-top-bar-start ***************************** -->
+
+    <div class="container-fluid top-header pt-1 pb-1">
+      <div class="container">
+        <div class="d-flex">
+          <div class="top-header-icon">
+            <i class="fas fa-phone-alt"></i>
+            <span class="ms-2">+971 XXXX XXX</span>
+          </div>
+          <div class="top-header-icon ms-5">
+            <i class="fas fa-envelope"></i>
+            <span class="ms-2">info@Dolceefiore.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ******************** Header-top-bar-end ***************************** -->
+
+    <!-- ******************** Header-Nav-Bar start ***************************** -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="navbar-brand">
+          <img
+            class="logo-image"
+            src="images/Dolce-Logo-white (1).png"
+            alt=""
+          />
+        </div>
+        <div class="header-icon-for-mobile d-flex ms-auto">
+          <i
+            class="fas fa-shopping-cart me-4 add-to-cart-for-mobile"
+            id="cart-icon"
+            ><span class="small-circle-for-mobile">3</span></i
+          >
+          <i class="fas fa-search me-4 nav-icon"></i>
+        </div>
+
+        <div
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fas fa-bars menu-icon"></i></span>
+        </div>
+
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-5">
+            <li class="nav-item navigation-li">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+                >FLOWER <i class="fal fa-angle-down"></i
+              ></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                CAKE
+                <i class="fal fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+                >CALENDER EVENTS <i class="fal fa-angle-down"></i
+              ></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+                >SHOP <i class="fal fa-angle-down"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CART</a>
+            </li>
+          </ul>
+          <div class="d-flex header-icon">
+            <i class="fas fa-shopping-cart me-4 nav-icon"
+              ><span class="cart-number">3</span></i
+            >
+            <i class="fas fa-search me-4 nav-icon"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ******************** Header-Nav-Bar end ***************************** -->
+
+    <!--***************** BreadCrumb-start ***********************  -->
+
+    <div class="container-fluid breadcrumb-section">
+      <div class="container">
+        <div
+          class="col d-flex justify-content-center align-items-center pt-3 pb-3"
+        >
+          <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item bread-home"><a href="#">Home</a></li>
+              <li
+                class="breadcrumb-item active bread-page-title"
+                aria-current="page"
+              >
+                Dates
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!--***************** BreadCrumb-end ***********************  -->
+
+    <!--********************* Main Section *********************  -->
+
+    <div class="container main-container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-3 shop-by">
+          <div class="cross"><i class="fas fa-times"></i></div>
+          <div class="main-heading pt-3 pb-3">
+            <h6 class="ps-4" id="shop-by">Shop By</h6>
+          </div>
+          <div class="mt-3 mb-3">
+            <p class="ps-4 title">SHOPPING OPTIONS</p>
+
+            <p class="ps-4 sub-title mt-2">BOX SHAPE & MATERIAL</p>
+            <p
+              id="reset-filter"
+              class="ps-4 mt-2 filter active"
+              data-filter="all"
+              href="#"
+            >
+              Reset Filter
+            </p>
+          </div>
+          <!--******* filter Image Section **************-->
+          <div class="pb-3 ps-3 d-flex flex-wrap">
+            <img
+              class="filter-img filter"
+              data-filter="dates"
+              src="images/cd1.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="chocolate"
+              src="images/cd-2.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="dates"
+              src="images/cd1.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="chocolate"
+              src="images/cd-2.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="dates"
+              src="images/cd1.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="chocolate"
+              src="images/cd-2.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="dates"
+              src="images/cd1.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="chocolate"
+              src="images/cd-2.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="dates"
+              src="images/cd1.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="chocolate"
+              src="images/cd-2.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="dates"
+              src="images/cd1.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="chocolate"
+              src="images/cd-2.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="dates"
+              src="images/cd1.png"
+              alt=""
+            />
+            <img
+              class="filter-img filter"
+              data-filter="chocolate"
+              src="images/cd-2.png"
+              alt=""
+            />
+          </div>
+
+          <!--*********** Sub-Category start *************-->
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Sagai Stuffed Dates
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p class="filter" data-filter="dates">Pistachio</p>
+                  <p class="filter" data-filter="chocolate">Almond</p>
+                  <p class="filter" data-filter="dates">Hazelnut</p>
+                  <p class="filter" data-filter="chocolate">Orange</p>
+                  <p class="filter" data-filter="dates">Cashew</p>
+                  <p class="filter" data-filter="chocolate">Pecan</p>
+                  <p class="filter" data-filter="dates">Lemon</p>
+                  <p class="filter" data-filter="chocolate">Walnut</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Khodri Stuffed Dates
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>Pistachio</p>
+                  <p>Almond</p>
+                  <p>Hazelnut</p>
+                  <p>Orange</p>
+                  <p>Cashew</p>
+                  <p>Pecan</p>
+                  <p>Lemon</p>
+                  <p>Walnut</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Medjoul Stuffed Dates
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>Pistachio</p>
+                  <p>Almond</p>
+                  <p>Hazelnut</p>
+                  <p>Orange</p>
+                  <p>Cashew</p>
+                  <p>Pecan</p>
+                  <p>Lemon</p>
+                  <p>Walnut</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--********* Main-section 2.0 (2nd-column)  -->
+
+        <div class="col-md-9">
+          <div class="heading ps-3">
+            <h1>FRESH FLOWERS</h1>
+          </div>
+
+          <div class="filter-icon">
+            <div
+              class="ps-3 mt-5 d-flex justify-content-start align-items-center"
+            >
+              <i class="fas fa-sliders-h"></i>
+              <p class="ms-2">Filter</p>
+            </div>
+          </div>
+          <div class="clearfix ps-3 mt-5">
+            <div class="float-start">
+              <i id="grid-icon" class="fas fa-th me-1 grid"></i>
+              <i id="bar-icon" class="fas fa-bars list"></i>
+            </div>
+            <div class="float-end d-flex">
+              <p id="sort-by">Sort By</p>
+              <select
+                class="form-select ms-2"
+                aria-label="Default select example"
+              >
+                <option selected>Price</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <!--************ Sub-category end **********  -->
+
+          <!--************ Product-start  ******************-->
+
+          <div class="row mt-5 ps-3 product ltg">
+            <div class="col-md-3 col-6 product-box dates">
+              <div class="card">
+                <img
+                  src="images/chocolate1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-title">Medjoul Staffed Dates</p>
+                  <p class="card-text">AED 180</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 product-box chocolate">
+              <div class="card">
+                <img
+                  src="images/chocolate2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-title">Chocolate</p>
+                  <p class="card-text">AED 180</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 product-box chocolate">
+              <div class="card">
+                <img
+                  src="images/chocolate3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-title">Dark choclate</p>
+                  <p class="card-text">AED 180</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 product-box dates">
+              <div class="card">
+                <img
+                  src="images/chocolate1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-title">Medjoul Staffed Dates</p>
+                  <p class="card-text">AED 180</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 product-box chocolate">
+              <div class="card">
+                <img
+                  src="images/chocolate2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-title">Chocolate</p>
+                  <p class="card-text">AED 180</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 product-box chocolate">
+              <div class="card">
+                <img
+                  src="images/chocolate3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-title">Dark chocolate</p>
+                  <p class="card-text">AED 180</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 product-box dates">
+              <div class="card">
+                <img
+                  src="images/chocolate1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-title">Medjoul Staffed Dates</p>
+                  <p class="card-text">AED 180</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 product-box dates">
+              <div class="card">
+                <img
+                  src="images/chocolate1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-title">Medjoul Staffed Dates</p>
+                  <p class="card-text">AED 180</p>
+                </div>
+              </div>
+            </div>
+
+            <!--*************  product end *********  -->
+
+            <!--*********** Pagination start ***************-->
+            <div class="d-flex justify-content-center align-items-center mt-5">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      <i class="fal fa-chevron-left left-arrow"></i>
+                      <i class="fal fa-chevron-left left-arrow"></i>
+                      <i class="fal fa-chevron-left left-arrow"></i>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#"
+                      ><i class="fal fa-chevron-left"></i
+                    ></a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      <i class="fal fa-chevron-right"></i>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      <i class="fal fa-chevron-right right-arrow"></i>
+                      <i class="fal fa-chevron-right right-arrow"></i>
+                      <i class="fal fa-chevron-right right-arrow"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--*********** Pagination end ***************-->
+
+    <!--*********** Category-box start ***************-->
+
+    <div class="container-fluid mt-5">
+      <div class="row flower-row">
+        <div class="col-md-3 col-6 mx-auto text-center flower-category">
+          <div class="category pt-4 pb-4">
+            <img class="category-img" src="images/flower.png" alt="" />
+            <p class="category-text pt-2">FLOWER</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mx-auto text-center choclate-category">
+          <div class="category pt-4 pb-4">
+            <img class="category-img" src="images/cake (1).png" alt="" />
+            <p class="category-text pt-2">CHOCOLATE</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mx-auto text-center dates-category">
+          <div class="category pt-4 pb-4">
+            <img class="category-img" src="images/dates.png" alt="" />
+            <p class="category-text pt-2">DATES</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mx-auto text-center cake-category">
+          <div id="cake-category" class="pt-4 pb-4">
+            <img class="category-img" src="images/cake.png" alt="" />
+            <p class="category-text pt-2">HOMEMADE SWEET</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category end -->
+
+    <!-- Social Icon Start -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 d-flex justify-content-center align-items-center">
+          <p class="icon-text">
+            We are Confident we have provided all the best for you. Stay connect
+            with us
+          </p>
+        </div>
+        <div
+          id="icon-column-border"
+          class="col-md-5 d-flex justify-content-center align-items-center"
+        >
+          <a class="social-icon" href="#"
+            ><i class="fab fa-facebook-f fa-2x"></i
+          ></a>
+          <a class="social-icon" href="#"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a class="social-icon" href="#"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a class="social-icon" href="#"
+            ><i class="fab fa-linkedin-in fa-2x"></i
+          ></a>
+          <a class="social-icon" href="#"
+            ><i class="fab fa-behance fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Icon End -->
+
+    <!-- Footer start  -->
+
+    <div class="container-fluid footer pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-6">
+            <div class="">
+              <p class="footer-title">INFORMATION</p>
+              <p class="footer-subtitle">Delivery Information</p>
+              <p class="footer-subtitle">Discount</p>
+              <p class="footer-subtitle">Sitemap</p>
+              <p class="footer-subtitle">Privacy Policy</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+            <p class="footer-title">MY ACCOUNT</p>
+            <p class="footer-subtitle">Sign In</p>
+            <p class="footer-subtitle">View Cart</p>
+            <p class="footer-subtitle">My WhisList</p>
+            <p class="footer-subtitle">Check Out</p>
+          </div>
+
+          <div class="col-md-3 col-6">
+            <p class="footer-title">HELP</p>
+            <p class="footer-subtitle">FAQ</p>
+            <p class="footer-subtitle">Shipping</p>
+            <p class="footer-subtitle">Contact Us</p>
+            <p class="footer-subtitle">Privacy Policy</p>
+          </div>
+
+          <div class="col-md-3 col-6">
+            <p class="footer-title">CONTACT INFO</p>
+            <ul class="list-unstyled">
+              <li class="mt-1 footer-subtitle d-flex">
+                <i class="fas fa-globe-asia pt-1 me-2"></i>
+                <p>123 Your Address,Country</p>
+              </li>
+              <li class="mt-1 footer-subtitle d-flex">
+                <i class="fas fa-phone-alt pt-1 me-2"></i>
+                <p>+971 XXXX XX</p>
+              </li>
+              <li class="mt-1 footer-subtitle d-flex">
+                <i class="fas fa-envelope pt-1 me-2"></i>
+                <p>abc@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Last section -->
+
+    <div class="container-fluid footer-sub-section pt-3 pb-3 opt">
+      <div class="row">
+        <div class="col-md-7">
+          <p class="">
+            Copyright 2021 Dolce-e-Fiore All Right Reserved. | Privacy Policy |
+            Terms & Conditions
+          </p>
+        </div>
+        <div class="col-md-5">
+          <div class="payment-card">
+            <i class="fab fa-cc-visa last-icon fa-2x me-2"></i>
+            <i class="fab fa-cc-paypal last-icon fa-2x me-2"></i>
+            <i class="fab fa-amazon last-icon fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Last section end -->
+
+    <!-- Footer end  -->
+
+    <!--*******************************************************  -->
+
+    <!-- *************** Jquery and Owl Carousel Script start *****************-->
+
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="index.js"></script>
+
+    <!-- ****************Jquery and Owl Carousel Script end *****************-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></scrip>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
